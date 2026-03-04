@@ -11,6 +11,7 @@ class LinkPrecedence(str, enum.Enum):
 
 class Contact(Base):
     __tablename__ = "contacts"
+    __table_args__ = {"schema": "bitespeed"}
 
     id = Column(Integer, primary_key=True, index=True)
     phoneNumber = Column(String(20), nullable=True)
