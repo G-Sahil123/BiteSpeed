@@ -4,4 +4,4 @@ sqlalchemy==2.0.30
 pydantic==2.6.4
 python-dotenv==1.0.1
 alembic==1.13.1
-pymysql
+psycopg2-binary==2.9.9
